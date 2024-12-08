@@ -1,6 +1,7 @@
 ---
 title: 'DSCI 310: Historical Horse Population in Canada'
 author: Tiffany Timbers & Jordan Bourak
+toc: true
 format: 
   html:
     toc: true
@@ -14,17 +15,6 @@ execute:
   enabled: true
   eval: true
 editor: source
-jupyter:
-  jupytext:
-    text_representation:
-      extension: .qmd
-      format_name: quarto
-      format_version: '1.0'
-      jupytext_version: 1.16.4
-  kernelspec:
-    display_name: Python 3
-    language: python
-    name: python3
 bibliography: references.bib
 ---
 
@@ -41,7 +31,7 @@ between 1906 and 1972 for each province.
 
 # Data
 
-Horse population data were sourced from the Government of Canada's Open Data website [@horses1 and @horses2]
+Horse population data were sourced from the Government of Canada's Open Data website [@horses1; and @horses2]
 
 # Methods
 
